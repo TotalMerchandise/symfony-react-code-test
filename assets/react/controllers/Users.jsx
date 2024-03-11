@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function () {
-    return <p>User list</p>
+    return <p>Users.jsx. Edit this file in assets/react/controllers/Users.jsx</p>
 }

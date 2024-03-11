@@ -1,34 +1,42 @@
 # Total Merchandise Symfony + React Code Test
 
-Welcome to the Total Merchandise code test. Your task is to build a page that lists sales staff, shows information and allows searching.
+Welcome to the Total Merchandise code test. Please fork this repository.
+
+Your task is to build a page that lists members of the sales team, shows staff information and is searchable.
 
 Requirements:
 - Create an API endpoint that returns sales staff.
 - Fetch and display sales staff using React. You should display all the appropriate information.
 - Add the ability to search staff by name. **Please filter your results in your API endpoint.**
 
-You are welcome to add any additional features you see fit.
+You are welcome to add any additional features you see fit and style the page however you like.
 
-We recommend you spend no longer than X hours on this test.
+We recommend you spend no longer than 2 hours on this test.
+
+Once you have completed the test please email your recruiter with a public link to your fork.
 
 ## Setup
 
 We have provided a base Symfony + React install.
 
-You will need to run a `composer install` and also an `npm install`. Once installed you can run the server using `symfony server:start`. See [Symfony Install Docs](https://symfony.com/doc/current/setup.html) for more.
+Firstly create a file called `.env` and copy the contents of `.env.example`. You will need to generate an `APP_SECRET`.
+
+You will need to run a `composer install` and also an `npm install`. 
+
+Once installed you can run the server using `symfony server:start`. You will also need to run `npm run watch`. See [Symfony Install Docs](https://symfony.com/doc/current/setup.html) for more.
 
 Notable docs:
 
 - [Symfony UX React](https://symfony.com/bundles/ux-react/current/index.html)
 - [Symfony Encore](https://symfony.com/doc/current/frontend.html#webpack-encore)
 
-The file `default.html.twig` calls a React component found in `assets/react/controllers/Users.jsx`. We recommend you edit the existing `Users.jsx`. For your endpoint you'll need to create this from scratch.
+The file `default.html.twig` calls a React component found in `assets/react/controllers/Users.jsx`. We recommend you edit the existing `Users.jsx`. You will need to create your API endpoint from scratch.
 
 [Axios](https://github.com/axios/axios) is also installed.
 
 ## Help
 
-If you are unable to get this project working please get in touch with the recruiter you are working with.
+If you are unable to get this project working please contact the recruiter you are working with.
 
 ## Mock data
 
